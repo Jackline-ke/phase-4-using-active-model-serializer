@@ -21,6 +21,8 @@ end
 group :development do
   gem 'listen', '~> 3.3'
 end
+gem 'active_model_serializers'
+gem 'psych' , '<4.0.0'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
